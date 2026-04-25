@@ -16,6 +16,7 @@
     --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
+    --radius-4xl: 2rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -190,11 +191,23 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
+  .mt-\[150px\] {
+    margin-top: 150px;
+  }
+  .mt-\[190px\] {
+    margin-top: 190px;
+  }
   .mt-\[300px\] {
     margin-top: 300px;
   }
   .mr-\[20px\] {
     margin-right: 20px;
+  }
+  .mr-\[30px\] {
+    margin-right: 30px;
+  }
+  .ml-\[30px\] {
+    margin-left: 30px;
   }
   .ml-\[80px\] {
     margin-left: 80px;
@@ -229,11 +242,17 @@
   .h-\[400xp\] {
     height: 400xp;
   }
+  .h-\[480px\] {
+    height: 480px;
+  }
   .h-\[654\.5970458984375px\] {
     height: 654.5970458984375px;
   }
   .h-\[655px\] {
     height: 655px;
+  }
+  .h-\[700px\] {
+    height: 700px;
   }
   .h-\[932\] {
     height: 932;
@@ -258,6 +277,9 @@
   }
   .w-\[42px\] {
     width: 42px;
+  }
+  .w-\[47\] {
+    width: 47;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -312,6 +334,9 @@
   }
   .w-\[378x\] {
     width: 378x;
+  }
+  .w-\[380px\] {
+    width: 380px;
   }
   .w-\[452px\] {
     width: 452px;
@@ -385,11 +410,17 @@
   .gap-\[50px\] {
     gap: 50px;
   }
+  .gap-\[90px\] {
+    gap: 90px;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
+  }
+  .rounded-4xl {
+    border-radius: var(--radius-4xl);
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
@@ -403,6 +434,9 @@
   }
   .bg-\[\#030303\] {
     background-color: #030303;
+  }
+  .bg-\[\#141414\] {
+    background-color: #141414;
   }
   .bg-\[black\] {
     background-color: black;
@@ -440,11 +474,20 @@
   .pr-\[10px\] {
     padding-right: 10px;
   }
+  .pr-\[30px\] {
+    padding-right: 30px;
+  }
   .pl-\[10px\] {
     padding-left: 10px;
   }
+  .pl-\[30px\] {
+    padding-left: 30px;
+  }
   .pl-\[100px\] {
     padding-left: 100px;
+  }
+  .pl-\[px\] {
+    padding-left: px;
   }
   .text-center {
     text-align: center;
@@ -465,8 +508,14 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[24px\] {
+    font-size: 24px;
+  }
   .text-\[30px\] {
     font-size: 30px;
+  }
+  .text-\[36px\] {
+    font-size: 36px;
   }
   .text-\[40px\] {
     font-size: 40px;
@@ -583,6 +632,16 @@
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+  }
+  .lg\:rounded-4xl {
+    @media (width >= 64rem) {
+      border-radius: var(--radius-4xl);
+    }
+  }
+  .lg\:pl-\[0\] {
+    @media (width >= 64rem) {
+      padding-left: 0;
     }
   }
   .lg\:text-left {
