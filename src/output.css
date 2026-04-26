@@ -954,6 +954,9 @@
   .gap-\[20px\] {
     gap: 20px;
   }
+  .gap-\[22px\] {
+    gap: 22px;
+  }
   .gap-\[25px\] {
     gap: 25px;
   }
@@ -1278,11 +1281,17 @@
   .p-\[12px\] {
     padding: 12px;
   }
+  .p-\[14px_35px\] {
+    padding: 14px 35px;
+  }
   .p-\[16px\] {
     padding: 16px;
   }
   .p-\[20px\] {
     padding: 20px;
+  }
+  .p-\[28px\] {
+    padding: 28px;
   }
   .p-\[30px\] {
     padding: 30px;
